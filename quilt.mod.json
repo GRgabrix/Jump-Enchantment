@@ -1,0 +1,32 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "com.grgabrix",
+		"id": "jump_enchant",
+		"version": "2.0",
+		"metadata": {
+			"name": "Jump Enchantment",
+			"description": "New enchantment that, when applied to boots, increases your jump height!",
+			"contributors": {
+				"GRgabrix": "Owner"
+			},
+			"contact": {
+				"homepage": "https://modrinth.com/mod/jump-enchantment",
+				"sources": "https://github.com/GRgabrix/Jump-Enchantment"
+			},
+			"icon": "pack.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"depends": [
+			{
+				"id": "quilt_resource_loader",
+				"versions": "*",
+				"unless": "fabric-resource-loader-v0"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.21.2"
+			}
+		]
+	}
+}

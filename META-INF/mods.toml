@@ -1,0 +1,13 @@
+modLoader = 'lowcodefml'
+loaderVersion = '[53,)'
+license = 'ARR'
+
+[[mods]]
+modId = 'jump_enchant'
+version = '2.0'
+displayName = 'Jump Enchantment'
+description = 'New enchantment that, when applied to boots, increases your jump height!'
+logoFile = 'pack.png'
+authors = 'GRgabrix'
+displayURL = 'https://modrinth.com/mod/jump-enchantment'
+sourceURL = 'https://github.com/GRgabrix/Jump-Enchantment'
